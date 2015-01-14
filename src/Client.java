@@ -1,6 +1,10 @@
 import java.rmi.Naming;
 
 public class Client {
+    /**
+     *
+     * @param serverSocket should have the format hostAdress:port - example: localhost:1234
+     */
     public static void main(String serverSocket) {
         try {
             String[] args=serverSocket.split(":");
